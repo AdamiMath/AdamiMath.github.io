@@ -166,8 +166,12 @@
     .formacao-texto{
         font-size: 1.25rem;
     }
-    .formacao-extra h3::after{
+    .formacao-extra h3::before{
         position: initial;
         margin-top: 10px;
+    }
+
+    .projeto-link{
+        padding: 2px 5px;
     }
 }

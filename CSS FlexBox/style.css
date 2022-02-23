@@ -389,10 +389,10 @@ img{
 }
 /* menu mobile */
 [data-menu="button"] {
-    display: none;
+    display: visible;
 }
 
-@media (max-width: 700px){
+/* @media (max-width: 700px){
     [data-menu="button"] {
         display: flex;
         background: #fff;
@@ -427,4 +427,4 @@ img{
 
 
     }
-}
+} */
