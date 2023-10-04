@@ -1,0 +1,1598 @@
+.h1-design {
+  margin-top: 180px;
+  font-size: 300px;
+}
+
+.logo-design {
+  width: 450px;
+  margin-top: 130px;
+}
+
+.subdescricao-header-design {
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 35px;
+  margin: 0px 0px 30px 30px;
+  background-color: #501958;
+  border-radius: 10px;
+}
+
+@media (max-width: 360px) {
+  header {
+    background: url("../src/imgs/fundo-roxo-novo.png") center center no-repeat;
+  }
+
+  #logo {
+    max-width: 150px;
+  }
+
+  #menu {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+  body {
+    max-width: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .desenvolvimento-header {
+    max-width: 300px;
+  }
+  .header-dev {
+    flex-wrap: wrap;
+  }
+
+  .section-descricap-header {
+    flex-wrap: wrap;
+  }
+
+  .subdescricao-header-design {
+    padding: 2px 5px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .descricao-header {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .section-descricap-header {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .logo-design {
+    margin-top: 0px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .servicos-dev {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .servicos-layout {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .servicos-migracao {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .h1-design {
+    text-align: center;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+
+  .descricao-dev {
+    width: 100%;
+  }
+
+  .h1-devs {
+    font-size: 25px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .h1-layout {
+    font-size: 25px;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .p-dev {
+    margin: 0 auto;
+    padding: 15px 0px;
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .p-layout {
+    margin: 0 auto;
+    padding: 15px 0px;
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .h2-sobre-nos {
+    padding-bottom: 50px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 200px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  .redes {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .p-contato-footer {
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .descricao-footer {
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 350px;
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .logo-footer {
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 210px;
+    height: 100px;
+  }
+
+  .nuvemshop {
+    max-width: 60px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .abradi {
+    max-width: 90px;
+    height: 60px;
+    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .footer-endereco {
+    flex-wrap: wrap;
+  }
+
+  .logo-redes {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+  }
+}
+@media (min-width: 361px) and (max-width: 430px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #logo {
+    width: 250px;
+  }
+
+  #menu {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header {
+    max-height: 90vh;
+  }
+
+  .header-dev {
+    flex-wrap: wrap;
+  }
+
+  .section-descricap-header {
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+
+  .subdescricao-header-design {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .descricao-header {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .section-descricap-header {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 380px;
+  }
+
+  .desenvolvimento-header {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .logo-design {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .servicos-dev {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .servicos-layout {
+    flex-wrap: wrap;
+  }
+
+  .servicos-migracao {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .h1-devs {
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 30px;
+  }
+
+  .h1-design {
+    font-size: 70px;
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .h1-layout {
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 30px;
+  }
+
+  .p-dev {
+    margin: 0 auto;
+    word-spacing: -3px;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .p-layout {
+    margin: 0 auto;
+    word-spacing: -3px;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 100px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
+  }
+
+  .descricao-dev {
+    margin: 0 auto;
+  }
+
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  .redes {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .descricao-footer {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .logo-footer {
+    max-width: 700px;
+    max-height: 200px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .nuvemshop {
+    width: 80px;
+    height: 80px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .abradi {
+    max-width: 100px;
+    max-height: 80px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .endereco {
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  .p-contato-footer {
+    max-width: 350px;
+    margin: 10px 100px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 474px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #logo {
+    width: 250px;
+  }
+
+  #menu {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header {
+    max-height: 70vh;
+  }
+
+  .header-dev {
+    flex-wrap: wrap;
+  }
+
+  .section-descricap-header {
+    flex-wrap: wrap;
+  }
+
+  .subdescricao-header-design {
+    padding: 2px 5px;
+    font-size: 20px;
+
+    text-align: center;
+  }
+
+  .descricao-header {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .section-descricap-header {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 380px;
+  }
+
+  .desenvolvimento-header {
+    margin-right: 0px;
+    padding-top: 70px;
+  }
+
+  .logo-design {
+    margin-top: 0px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .servicos-dev {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .servicos-layout {
+    flex-wrap: wrap;
+  }
+
+  .servicos-migracao {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .h1-devs {
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 30px;
+  }
+
+  .h1-design {
+    font-size: 70px;
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .h1-layout {
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 30px;
+  }
+
+  .p-dev {
+    margin: 20px 20px;
+    word-spacing: -3px;
+    font-size: 16px;
+  }
+
+  .p-layout {
+    margin: 20px 20px;
+    word-spacing: -3px;
+    font-size: 16px;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 100px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
+  }
+
+  .descricao-dev {
+    margin: 0 auto;
+  }
+
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  .redes {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .descricao-footer {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .logo-footer {
+    max-width: 700px;
+    max-height: 200px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .nuvemshop {
+    width: 80px;
+    height: 80px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .abradi {
+    max-width: 100px;
+    max-height: 80px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .endereco {
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  .p-contato-footer {
+    width: 200px;
+    margin: 10px 100px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 540px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #logo {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  header {
+    max-height: 70vh;
+  }
+
+  #menu {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .header-dev {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .section-descricap-header {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 130px;
+  }
+
+  .subdescricao-header-design {
+    padding: 2px 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .descricao-header {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .section-descricap-header {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 380px;
+  }
+
+  .desenvolvimento-header {
+    margin: 0 auto;
+  }
+
+  .logo-design {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .servicos-dev {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .servicos-layout {
+    flex-wrap: wrap;
+  }
+
+  .servicos-migracao {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .h1-devs {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .h1-design {
+    font-size: 70px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .h1-layout {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .p-dev {
+    margin: 0 auto;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .p-layout {
+    margin: 0 auto;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 100px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    max-height: 60vh;
+    width: auto;
+    height: auto;
+  }
+
+  .descricao-dev {
+    margin: 0 auto;
+  }
+
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  .redes {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .descricao-footer {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .logo-footer {
+    max-width: 700px;
+    max-height: 200px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .nuvemshop {
+    width: 80px;
+    height: 80px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .abradi {
+    max-width: 100px;
+    max-height: 80px;
+    padding-bottom: 10px;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .endereco {
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  .p-contato-footer {
+    width: 250px;
+    margin: 10px 90px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 700px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #menu {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .h1-design {
+    margin: 0 auto;
+    font-size: 70px;
+  }
+
+  header {
+    max-height: 90vh;
+  }
+
+  .header-dev {
+    flex-wrap: wrap;
+  }
+
+  .subdescricao-header-design {
+    padding: 2px 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .descricao-header {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .section-descricap-header {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .logo-design {
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .servicos-dev {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .servicos-layout {
+    flex-wrap: wrap;
+  }
+
+  .servicos-migracao {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .h1-devs {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .h1-layout {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+
+  .p-dev {
+    margin: 0 auto;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .p-layout {
+    margin: 0 auto;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 300px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+  }
+
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  #logo {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .link-logo {
+    display: flex;
+  }
+
+  .redes {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .p-contato-footer {
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    cursor: pointer;
+  }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #menu {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header {
+    max-height: 90vh;
+  }
+
+  .desenvolvimento-header {
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .h1-design {
+    padding-top: 200px;
+    margin: 0 auto;
+    font-size: 100px;
+  }
+
+  .section-descricap-header {
+    max-width: 80vw;
+    margin-top: 0 auto;
+  }
+
+  .logo-design {
+    margin: 0 auto;
+    max-width: 300px;
+    padding-top: 200px;
+  }
+
+  .header-dev {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .subdescricao-header-design {
+    padding: 2px 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .descricao-header {
+    max-width: 80vw;
+    margin-top: 150px;
+  }
+
+  .section-descricap-header {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .servicos-dev {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .servicos-layout {
+    flex-wrap: wrap;
+  }
+
+  .servicos-migracao {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .h1-devs {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+
+  .h1-layout {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+
+  .p-layout {
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .p-dev {
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 480px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 480px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 480px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 480px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    height: 80vh;
+    width: auto;
+  }
+
+  .logo-footer {
+    margin: 0 auto;
+  }
+
+  .animate {
+    max-width: 1200px;
+  }
+
+  .nuvemshop {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+  }
+
+  .abradi {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+  }
+
+  .whats {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+  }
+
+  .p-contato-footer {
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .redes {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1365px) {
+  .header-dev {
+    max-height: 90vh;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #menu {
+    max-width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .descricao-header {
+    font-size: 25px;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .desenvolvimento-header {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .h1-design {
+    padding-top: 200px;
+    margin: 0 auto;
+    font-size: 100px;
+  }
+
+  .section-descricap-header {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+
+  .logo-design {
+    margin-top: 100px;
+    max-width: 350px;
+    margin-right: 0px;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    height: 477px;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 200px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .descricao-dev {
+    max-height: 200px;
+  }
+
+  .p-dev {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 20px;
+  }
+
+  .p-layout {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px 20px;
+  }
+
+  .entre-contato-footer {
+    margin: 20px 500px;
+    color: #471f57;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .entre-contato-footer {
+    margin: 20px 350px;
+    color: #471f57;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .p-contato-footer {
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+    background-color: #471f57;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  .p-contato-footer:hover {
+    color: #471f57;
+    background-color: #fff;
+    border: #471f57 1px solid;
+  }
+
+  .p-contato-footer::after {
+    content: "→";
+    padding-left: 10px;
+  }
+
+  .descricao-footer {
+    width: 700px;
+    font-size: 20px;
+  }
+
+  .h1-devs {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0px;
+  }
+
+  .h1-layout {
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 0px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+  body {
+    max-width: 100%;
+  }
+
+  .header-dev {
+    max-height: 90vh;
+  }
+
+  .desenvolvimento-header {
+    margin-left: 0px;
+  }
+
+  .descricao-header {
+    font-size: 25px;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .criacao-site {
+    max-width: 100%;
+    height: 491px;
+  }
+
+  .h1-design {
+    padding-top: 200px;
+    margin: 0 auto;
+    font-size: 100px;
+  }
+
+  .section-descricap-header {
+    max-width: 80vw;
+    margin: 100px auto;
+  }
+
+  .logo-design {
+    margin-top: 100px;
+    max-width: 350px;
+    margin-right: 0px;
+  }
+
+  .saiba-mais-dev {
+    text-align: center;
+    justify-content: center;
+    border: #501958 1px solid;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-dev:hover {
+    margin-top: 40px;
+    margin-left: 200px;
+    border: #501958 1px solid;
+    margin-bottom: 15px;
+  }
+
+  .saiba-mais-layout {
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .saiba-mais-layout:hover {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border: #fff 1px solid;
+  }
+
+  .descricao-dev {
+    max-height: 200px;
+  }
+
+  .p-dev {
+    margin-top: 50px;
+    line-height: 1.6;
+  }
+
+  .entre-contato-footer {
+    margin: 20px 300px;
+    color: #471f57;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .entre-contato-footer {
+    margin: 20px 500px;
+    color: #471f57;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .p-contato-footer {
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+    background-color: #471f57;
+    color: #fff;
+    margin: 0 auto;
+  }
+
+  .p-contato-footer:hover {
+    color: #471f57;
+    background-color: #fff;
+    border: #471f57 1px solid;
+  }
+
+  .p-contato-footer::after {
+    content: "→";
+    padding-left: 10px;
+  }
+
+  .descricao-footer {
+    width: 700px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .criacao-site {
+    max-width: 100%;
+    height: 694px;
+  }
+
+  .desenvolvimento-header {
+    margin-left: 0px;
+  }
+
+  .h1-design {
+    padding-top: 200px;
+  }
+
+  .section-descricap-header {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+
+  .logo-design {
+    padding: 90px;
+    margin-top: 30px;
+  }
+  .h1-devs {
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .h1-layout {
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .p-dev {
+    text-align: justify;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    font-size: 35px;
+  }
+
+  .p-layout {
+    text-align: justify;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0px 20px;
+    font-size: 35px;
+  }
+
+  .h1-design {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 150px;
+  }
+
+  .entre-contato-footer {
+    margin: 20px 500px;
+    color: #471f57;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .entre-contato-footer {
+    margin: 20px 500px;
+    color: #471f57;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .p-contato-footer {
+    font-size: 50px;
+    background-color: #471f57;
+    color: #fff;
+    width: 550px;
+    height: 70px;
+  }
+
+  .p-contato-footer:hover {
+    color: #471f57;
+    background-color: #fff;
+    border: #471f57 1px solid;
+  }
+
+  .p-contato-footer::after {
+    content: "→";
+    padding-left: 10px;
+  }
+
+  .subdescricao-header-design {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+}
